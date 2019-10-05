@@ -1,75 +1,97 @@
-# [![Learn Anything](https://raw.githubusercontent.com/learn-anything/docs/master/media/header.png)](https://learn-anything.xyz/)
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's hello-world starter
+</h1>
 
-# Learn Anything
+Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-[![Discord](https://img.shields.io/badge/-Discord-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://discord.gg/KKYdWjt)
-[![Twitter](https://img.shields.io/badge/-Twitter-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://twitter.com/learnanything_)
-[![Support](https://img.shields.io/badge/%E2%9D%A4-Support-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://www.patreon.com/learnanything)
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-#### Organize world's knowledge, explore relations and curate learning paths
+## 🚀 Quick start
 
-- **Learn**: Study guides created and improved by users
-- **Explore**: An interactive map with all topics and their relationships
-- **Build**: Share and find ideas to build
+1.  **Create a Gatsby site.**
 
-For more info, please read [our Roadmap](https://docs.learn-anything.org/roadmap).
+    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
-## Contributing
+    ```shell
+    # create a new Gatsby site using the hello-world starter
+    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    ```
 
-You can start helping by joining our [Discord](https://discord.gg/KKYdWjt) group and sharing your thoughts with the community.
+1.  **Start developing.**
 
-We have [documentation](https://docs.learn-anything.org) available you can read. If you want to contribute to the code, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+    Navigate into your new site’s directory and start it up.
 
-<div>
-	<a href="https://www.figma.com/file/N2ioUbr7aiapNijNH8DH3Xh3/1.0" target="_blank">
-	<img src="https://raw.githubusercontent.com/learn-anything/docs/master/media/cta-view-figma.jpg" alt="figma link" width="295px" />
-	</a>
-</div>
+    ```shell
+    cd my-hello-world-starter/
+    gatsby develop
+    ```
 
-If anyone wants to contribute on the designs, make sure to say something in the #design channel on our Discord!
+1.  **Open the source code and start editing!**
 
-<details>
-<summary>Mockups</summary><br>
+    Your site is now running at `http://localhost:8000`!
 
-_A special thanks to [@iinfin](https://github.com/iinfin) for designing the following mockups!_
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-![00](https://git.io/fhuEl)
+    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-> `Home`
+## 🧐 What's inside?
 
-![01](https://git.io/fhuE4)
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-> `Learn`
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-![02](https://git.io/fhuER)
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-> `Explore`
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-![03](https://git.io/fhuE0)
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-> `Build`
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-![04](https://git.io/fhuE8)
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-> `About`
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-</details>
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-## Support
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-This project is built by the community, for the community and our goal is to create the best platform possible for exploring new topics and finding valuable resources. There are no advertisements or sponsored content in the website, we rely on donations which can be done through our [Patreon page](https://www.patreon.com/learnanything).
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-## Contributors ✨
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://nikitavoloboev.xyz"><img src="https://avatars0.githubusercontent.com/u/6391776?v=4" width="100px;" alt="Nikita Voloboev"/><br /><sub><b>Nikita Voloboev</b></sub></a><br /><a href="https://github.com/learn-anything/learn-anything/commits?author=nikitavoloboev" title="Code">💻</a> <a href="#design-nikitavoloboev" title="Design">🎨</a> <a href="https://github.com/learn-anything/learn-anything/commits?author=nikitavoloboev" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://nglgzz.com/"><img src="https://avatars1.githubusercontent.com/u/13448636?v=4" width="100px;" alt="Angelo Gazzola"/><br /><sub><b>Angelo Gazzola</b></sub></a><br /><a href="https://github.com/learn-anything/learn-anything/commits?author=nglgzz" title="Code">💻</a> <a href="#design-nglgzz" title="Design">🎨</a> <a href="https://github.com/learn-anything/learn-anything/commits?author=nglgzz" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/johnletey"><img src="https://avatars0.githubusercontent.com/u/30328854?v=4" width="100px;" alt="John Letey"/><br /><sub><b>John Letey</b></sub></a><br /><a href="https://github.com/learn-anything/learn-anything/commits?author=johnletey" title="Code">💻</a> <a href="#design-johnletey" title="Design">🎨</a> <a href="https://github.com/learn-anything/learn-anything/commits?author=johnletey" title="Documentation">📖</a></td>
-  </tr>
-</table>
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-[![MIT](https://img.shields.io/badge/license-MIT-0a0a0a.svg?style=flat&colorA=0a0a0a)](LICENSE)
+## 🎓 Learning Gatsby
+
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
