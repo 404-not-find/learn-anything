@@ -4,9 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-require("dotenv").config()
-const fetch = require("isomorphic-fetch")
-const { createHttpLink } = require("apollo-link-http")
+require("dotenv").config();
+const fetch = require("isomorphic-fetch");
+const { createHttpLink } = require("apollo-link-http");
 
 module.exports = {
   plugins: [
@@ -23,9 +23,9 @@ module.exports = {
               "x-hasura-admin-secret": process.env.HASURA_ADMIN_SECRET,
             },
             fetch,
-          })
+          });
         },
       },
     },
   ],
-}
+};

@@ -1,6 +1,6 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-// import slugify from '../utils/slugify'
+import React from "react";
+import { graphql, Link } from "gatsby";
+// import slugify from "../utils/slugify";
 
 export const query = graphql`
   {
@@ -10,7 +10,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 export default ({ data }) => (
   <div style={{ margin: "5rem auto", width: "550px" }}>
@@ -20,4 +20,4 @@ export default ({ data }) => (
       </p>
     ))}
   </div>
-)
+);

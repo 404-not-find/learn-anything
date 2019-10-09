@@ -20,11 +20,11 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
         }
       }
     }
-  `)
+  `);
 
   // TODO: handle errors :(
 
-  const topics = result.data.data.topics
+  const topics = result.data.data.topics;
 
   topics.forEach(topic => {
     createPage({
@@ -33,6 +33,6 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
       context: {
         id: topic.id,
       },
-    })
-  })
-}
+    });
+  });
+};
