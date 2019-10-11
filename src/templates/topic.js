@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 export const query = graphql`
   query($id: hasura_uuid!) {
@@ -17,6 +17,9 @@ export default ({ data }) => {
 
   return (
     <div style={{ margin: "5rem auto", width: "550px" }}>
+      <h3>
+        <Link to="/">Home</Link>
+      </h3>
       <h1>{topic.name}</h1>
     </div>
   );
