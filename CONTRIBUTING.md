@@ -1,0 +1,28 @@
+# Contributing to Learn Anything
+
+Thank you for taking the time to contribute! ♥️
+
+You can:
+
+- Join our community on [Discord](https://discord.gg/KKYdWjt) to learn & build this project together
+- Submit [bug reports or feature requests](../../issues/new/choose)
+- Fix [open issues](../../issues) and [open PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- Improve documentation, our design mockups and more! These are just some ideas.
+
+## Dependencies
+
+Learn Anything is a website built using [next.js](https://nextjs.org) framework.
+
+To run the project:
+
+1. Clone the repo (`git clone https://github.com/learn-anything/learn-anything`)
+2. Run `yarn` (download all dependencies)
+3. Run `yart start` (start local development)
+
+Have fun! 🚀
+
+## Opening PRs
+
+Please search [existing issues](../../issues/) and [pull requests](../../pulls/) to check if somebody else is already working on the issue.
+
+Don't be afraid to ask questions, open issues for discussion or opening [Draft PRs](https://github.blog/2019-02-14-introducing-draft-pull-requests/) with code.
