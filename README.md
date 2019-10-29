@@ -8,7 +8,7 @@
 - **Explore**: Explore topics and their relationships
 - **Build**: Share and find ideas to build
 
-For more info, please read [our Roadmap](https://docs.learn-anything.org/roadmap).
+The [end goal](https://docs.learn-anything.org/roadmap) is to create a machine learning system that can craft personalized study plans for learning any topic and an open knowledge graph anyone can explore and extend.
 
 ## Contributing
 
