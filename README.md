@@ -12,7 +12,7 @@ For more info, please read [our Roadmap](https://docs.learn-anything.org/roadmap
 
 ## Contributing
 
-See [contribution guidelines](CONTRIBUTING.md#readme). ♥️
+See [contribution guidelines](CONTRIBUTING.md#readme).
 
 ## Contributors ✨
 
