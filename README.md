@@ -29,4 +29,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 If you like the project, please support it on [Patreon](https://patreon.com/learnanything). ♥️
 
-[![MIT](https://img.shields.io/badge/license-MIT-0a0a0a.svg?style=flat&colorA=0a0a0a)](LICENSE) [![Twitter](http://bit.ly/latweet)](https://twitter.com/learnanything_)
+[![MIT](https://img.shields.io/badge/license-MIT-0a0a0a.svg?style=flat&colorA=0a0a0a)](LICENSE) [![Twitter](http://bit.ly/latwitt)](https://twitter.com/learnanything_)
