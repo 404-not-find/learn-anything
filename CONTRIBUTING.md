@@ -6,8 +6,8 @@ You can:
 
 - Join our community on [Discord](https://discord.gg/KKYdWjt) to learn & build this project together
 - Submit [bug reports or feature requests](../../issues/new/choose)
-- Fix [open issues](../../issues) and [open PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-- Improve documentation, our design mockups and more! These are just some ideas.
+- Fix [open issues](../../issues) and [create PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- Improve documentation, our design mockups, the code and more! These are just some ideas.
 
 ## Dependencies
 
