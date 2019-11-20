@@ -1,21 +1,19 @@
-import Head from "next/head";
-import React from "react";
+import Page from '../components/page'
+import Link from '../components/link'
 
-const Home = () => (
-  <div>
-    <Head>
-      <title>Learn Anything</title>
-      {/* TODO: update favicon */}
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+const Index = () => {
+  return (
+    <Page
+      title="Home"
+      content={
+        <div className="flex">
+          <Link className="l-h invert" href="/topics">
+            Topics
+          </Link>
+        </div>
+      }
+    ></Page>
+  )
+}
 
-    {/* <Nav /> */}
-
-    {/* TODO: rebuild LA front page */}
-    <div className="hero"></div>
-
-    <style jsx>{``}</style>
-  </div>
-);
-
-export default Home;
+export default Index
