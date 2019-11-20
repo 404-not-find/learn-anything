@@ -24,7 +24,7 @@ function Team() {
           <tr>
             {items.map(entry => {
               return (
-                <td align="center">
+                <td align="center" key={entry.name}>
                   <img src={entry.image} alt={entry.name} />
                   <br />
                   <b>{entry.name}</b>
