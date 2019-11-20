@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Header from './header'
-import Footer from './footer'
+import Header from "./header";
+import Footer from "./footer";
 
 const Page = ({
   header = true,
@@ -14,7 +14,7 @@ const Page = ({
   return (
     <div>
       <Head>
-        <title>{`${title ? `${title} - ` : ''}Learn Anything`}</title>
+        <title>{`${title ? `${title} - ` : ""}Learn Anything`}</title>
       </Head>
 
       {header && <Header content={content} title={title} />}
@@ -61,7 +61,7 @@ const Page = ({
           --font-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
-          --font-mono: 'Consolas', monospace;
+          --font-mono: "Consolas", monospace;
 
           /* Transitions */
           --transition: 0.1s ease-in-out;
@@ -207,7 +207,7 @@ const Page = ({
 
         article *:not(pre) code::before,
         article *:not(pre) code::after {
-          content: '\`';
+          content: "\`";
           color: var(--light-gray);
           user-select: none;
         }
@@ -403,7 +403,7 @@ const Page = ({
         }
       `}</style>
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

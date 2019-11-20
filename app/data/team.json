@@ -1,0 +1,21 @@
+{
+    "schema": [
+        {
+            "name": "team"
+        }
+    ],
+    "data": [
+        {
+            "name": "Angelo Gazzola",
+            "image": "https://avatars1.githubusercontent.com/u/13448636?v=4"
+        },
+        {
+            "name": "Nikita Voloboev",
+            "image": "https://avatars0.githubusercontent.com/u/6391776?v=4"
+        },
+        {
+            "name": "John Letey",
+            "image": "https://avatars0.githubusercontent.com/u/30328854?v=4"
+        }
+    ]
+}

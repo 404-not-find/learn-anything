@@ -1,5 +1,5 @@
-import Page from '../components/page'
-import Link from '../components/link'
+import Page from "../components/page";
+import Link from "../components/link";
 
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
         </div>
       }
     ></Page>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

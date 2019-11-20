@@ -1,17 +1,17 @@
-import { memo } from 'react'
-import cn from 'classnames'
-import { useRouter } from 'next/router'
+import { memo } from "react";
+import cn from "classnames";
+import { useRouter } from "next/router";
 
-import Link from './link'
+import Link from "./link";
 
 const Links = ({ schema, filter }) => {
-  const { pathname } = useRouter()
+  const { pathname } = useRouter();
 
   return (
     <div className="flex">
       <Link
         href={pathname}
-        className={cn('l-h', 'invert', { active: !filter })}
+        className={cn("l-h", "invert", { active: !filter })}
       >
         All
       </Link>
@@ -21,16 +21,16 @@ const Links = ({ schema, filter }) => {
             key={k.name}
             href={`${pathname}?filter=${encodeURIComponent(k.name)}`}
             as={pathname}
-            className={cn('l-t', k.color, {
+            className={cn("l-t", k.color, {
               active: filter === k.name
             })}
           >
             {k.name}
           </Link>
-        )
+        );
       })}
     </div>
-  )
-}
+  );
+};
 
-export default memo(Links)
+export default memo(Links);

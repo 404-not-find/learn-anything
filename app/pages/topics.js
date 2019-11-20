@@ -1,11 +1,11 @@
-import Page from '../components/page'
+import Page from "../components/page";
 
 // Data
-import useData from '../lib/use-data'
-import { data } from '../data/topics.json'
+import useData from "../lib/use-data";
+import { data } from "../data/topics.json";
 
 function Topics() {
-  const { items } = useData(data)
+  const { items } = useData(data);
 
   return (
     <Page title="Topics">
@@ -15,11 +15,11 @@ function Topics() {
             <ul key={entry.key}>
               <li key={entry.key}>{entry.key}</li>
             </ul>
-          )
+          );
         })}
       </article>
     </Page>
-  )
+  );
 }
 
-export default Topics
+export default Topics;

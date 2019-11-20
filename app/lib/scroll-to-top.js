@@ -1,10 +1,10 @@
 const scrollToTop = () => {
-  if (!window) return
+  if (!window) return;
 
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
-  })
-}
+    behavior: "smooth"
+  });
+};
 
-export default scrollToTop
+export default scrollToTop;

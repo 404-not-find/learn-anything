@@ -1,8 +1,8 @@
-import { useState, useCallback, useEffect } from 'react'
-import Link from 'next/link'
+import { useState, useCallback, useEffect } from "react";
+import Link from "next/link";
 
-import { toggleLightMode } from '../lib/theme'
-import scrollToTop from '../lib/scroll-to-top'
+import { toggleLightMode } from "../lib/theme";
+import scrollToTop from "../lib/scroll-to-top";
 
 const Logo = () => {
   return (
@@ -46,8 +46,8 @@ const Logo = () => {
         `}</style>
       </a>
     </Link>
-  )
-}
+  );
+};
 
 const Toggle = () => {
   return (
@@ -76,33 +76,33 @@ const Toggle = () => {
         }
       `}</style>
     </button>
-  )
-}
+  );
+};
 
 const Description = ({ children, ...props }) => {
-  const [scroll, setScroll] = useState('0%')
+  const [scroll, setScroll] = useState("0%");
 
   const onScroll = useCallback(() => {
     window.requestAnimationFrame(() => {
-      const h = document.documentElement
-      const b = document.body
-      const st = 'scrollTop'
-      const sh = 'scrollHeight'
+      const h = document.documentElement;
+      const b = document.body;
+      const st = "scrollTop";
+      const sh = "scrollHeight";
       const percent =
-        ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100
-      setScroll(`${percent}%`)
-    })
-  }, [])
+        ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+      setScroll(`${percent}%`);
+    });
+  }, []);
 
   useEffect(() => {
-    window.addEventListener('scroll', onScroll)
+    window.addEventListener("scroll", onScroll);
 
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <div
-      style={{ '--p': scroll }}
+      style={{ "--p": scroll }}
       {...props}
       onClick={scrollToTop}
       title="Scroll to top"
@@ -126,8 +126,8 @@ const Description = ({ children, ...props }) => {
         }
       `}</style>
     </div>
-  )
-}
+  );
+};
 
 const Header = ({ title, content }) => {
   return (
@@ -141,7 +141,7 @@ const Header = ({ title, content }) => {
           {title}
         </div>
 
-        {content && typeof content === 'string' ? (
+        {content && typeof content === "string" ? (
           <div className="content">
             <Description>{content}</Description>
           </div>
@@ -157,7 +157,7 @@ const Header = ({ title, content }) => {
       <style jsx>{`
         @media (max-width: 960px) {
           nav {
-            position: ${content ? 'sticky' : 'static'};
+            position: ${content ? "sticky" : "static"};
           }
         }
       `}</style>
@@ -257,7 +257,7 @@ const Header = ({ title, content }) => {
         }
       `}</style>
     </nav>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

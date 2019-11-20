@@ -1,12 +1,12 @@
-import NextLink from 'next/link'
+import NextLink from "next/link";
 
 const canPrefetch = href => {
-  if (!href || !href.startsWith('/')) {
-    return false
+  if (!href || !href.startsWith("/")) {
+    return false;
   }
 
-  return true
-}
+  return true;
+};
 
 const Link = ({ external, href, as, passHref, children, ...props }) => {
   if (external) {
@@ -20,7 +20,7 @@ const Link = ({ external, href, as, passHref, children, ...props }) => {
       >
         {children}
       </a>
-    )
+    );
   }
 
   return (
@@ -34,7 +34,7 @@ const Link = ({ external, href, as, passHref, children, ...props }) => {
         {passHref ? children : <a {...props}>{children}</a>}
       </NextLink>
     </>
-  )
-}
+  );
+};
 
-export default Link
+export default Link;
