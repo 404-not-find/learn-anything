@@ -26,7 +26,8 @@
   "prettier": {
     "semi": true,
     "singleQuote": false,
-    "tabWidth": 2
+    "tabWidth": 2,
+    "endOfLine": "lf"
   },
   "eslintConfig": {
     "parser": "babel-eslint",
