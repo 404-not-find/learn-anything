@@ -16,29 +16,34 @@ function Team() {
           <Link className="l-h invert active" href="/team">
             Team
           </Link>
+          <Link className="l-h invert" href="/contact">
+            Contact
+          </Link>
         </div>
       }
     >
       <article>
-        <table>
-          <tr>
-            {items.map(entry => {
-              return (
-                <td align="center" key={entry.name}>
-                  <img src={entry.image} alt={entry.name} />
-                  <br />
-                  <b>{entry.name}</b>
-                </td>
-              );
-            })}
-          </tr>
-        </table>
+        <li>
+          {items.map(entry => {
+            return (
+              <td align="center" key={entry.name}>
+                <img src={entry.image} alt={entry.name} />
+                <br />
+                <b>{entry.name}</b>
+              </td>
+            );
+          })}
+        </li>
       </article>
 
       <style jsx>{`
+        li {
+          display: flex;
+        }
+
         img {
-          border-radius: 10%;
-          width: 90%;
+          border-radius: var(--radius);
+          width: 85%;
         }
       `}</style>
     </Page>

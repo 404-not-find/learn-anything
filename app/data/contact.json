@@ -1,0 +1,24 @@
+{
+    "schema": [
+        {
+            "name": "contact"
+        }
+    ],
+    "data": [
+        {
+            "name": "Mail",
+            "link": "mailto:team@learn-anything.org",
+            "color": "invert"
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/learnanything_",
+            "color": "blue"
+        },
+        {
+            "name": "Discord",
+            "link": "https://discord.gg/KKYdWjt",
+            "color": "blue-gray"
+        }
+    ]
+}
